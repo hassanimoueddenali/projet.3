@@ -46,3 +46,18 @@ form{
     -ms-border-radius: 18px;
     -o-border-radius: 18px;
 }
+#bt{
+    font-size: 18px;
+    text-align: center;
+    background-color: #B5BD74;
+    padding: 10px;
+    margin: 4px 0px 0px 59px;
+}
+div >button:hover{
+    border: 2px  white solid;
+    font-size: 50px;
+}
+.container2{
+    background-color: #8DC020;
+    display: flex;
+}
