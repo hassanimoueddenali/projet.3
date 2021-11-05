@@ -28,3 +28,21 @@ h1{
     height: 232px;
 
 }
+div.pic:hover{
+    border-radius: 15%;
+    border: #8DC020 5px solid;
+}
+form{
+    margin-top: -708px;
+    margin-left: 111px;
+    font-size: 30px;
+    background-color: black;
+    position: absolute;
+    padding: 36px;
+    border-radius: 18px;
+    height: 215px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
