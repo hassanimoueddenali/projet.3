@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.P1{
+    color: white;
+    text-align: center;
+}
+.disc{
+    color: white;
+    font-size: 10px;
+}
+.container{
+    display: flex;
+}
+.container > div{
+    text-align: center;
+}
