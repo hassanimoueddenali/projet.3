@@ -59,5 +59,14 @@ div >button:hover{
 }
 .container2{
     background-color: #8DC020;
-    display: flex;
+    
+    flex-wrap: wrapL
+}
+.items{
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    flex-wrap: wrap;
+
 }
