@@ -60,11 +60,11 @@ div >button:hover{
 .container2{
     background-color: #8DC020;
     
-    flex-wrap: wrapL
+    flex-wrap: wrap ;
 }
 .items{
     color: white;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     text-decoration: none;
     flex-wrap: wrap;
