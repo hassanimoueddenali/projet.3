@@ -62,11 +62,22 @@ div >button:hover{
     
     flex-wrap: wrap ;
 }
-.items{
-    color: white;
-    flex-direction: column;
-    justify-content: space-around;
-    text-decoration: none;
-    flex-wrap: wrap;
 
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: white;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: white;
+    height: 102px;
+    text-decoration: none;
+    margin: 54px;
+    padding: 10px;
+    background-color: #8DC020;
+    width: 100%;
 }
