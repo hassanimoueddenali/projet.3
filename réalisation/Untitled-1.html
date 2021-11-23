@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Untitled-2.css">
-    <link rel="stylesheet" href="lexgrid.css">
+    <link rel="stylesheet" href="flexgrid.css">
     <title>Document</title>
 </head>
-<body>
-    <header>
+<body class="bodyy">
+    <header class="col-xs-12 col-md-12 col-lg-12">
         <div class="logo">
             <img src="Capture d’écran 2021-11-04 164327.png" alt="logo" width="220">
             
@@ -17,7 +17,7 @@
     </header>
     <main>
         <img src="foto.webp" alt="curling">
-        <form>
+        <form Class="col-xs-12 col-md-3 col-lg-12">
             <input class="prénom" type="text" placeholder="prénom" required>
             <input type="nom" type="text" placeholder="nom" required> <br>
             <input type="email" type="email" placeholder="email adress" required>
@@ -27,6 +27,7 @@
             <button id="bt">inscrivez-vous maintenant</button>
           </div>
         </form>
+      <div class=" col-xs-12 col-md-11 col-lg-12">
         <h1>
             HALTERE D’EAU
         </h1>
@@ -75,15 +76,33 @@
                   </div>
              </section>
     </main>
-    <footer class="footer">
-           <div class="items">
-              <li>Qui sommes-nous ?</li>
-              <li>cgv</li>
-              <li>Mentions légales</li>
-              <li>Nous contacter</li>
-              <li></li>
-              <li>Livraison</li>
-              <li>sav</li>
+    <footer  class="items" >
+           <div class=" row ">
+              <div class="col-lg-2 col-xs-12">
+                <li>Qui sommes-nous ?</li>
+
+              </div>
+              <div class="col-lg-2 col-xs-12">
+                <li>cgv</li>
+
+              </div>
+              <div  class="col-lg-2 col-xs-12">
+                <li>Mentions légales</li>
+
+              </div>
+              <div  class="col-lg-2 col-xs-12">
+                <li>Nous contacter</li>
+
+              </div>
+              <div  class="col-lg-2 col-xs-12">
+                <li>Livraison</li>
+
+              </div>
+              <div  class="col-lg-2 col-xs-12">
+                <li>sav</li> 
+
+              </div>
+       
            </div>
      </footer>
 </body>
