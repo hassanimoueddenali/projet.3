@@ -14,6 +14,7 @@ h1{
     font-size: 10px;
 }
 .container{
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
 }
@@ -21,6 +22,7 @@ h1{
     text-align: center;
 }
 .pic{
+    flex-wrap: wrap;
     border: #B3BC76 solid;
     justify-content: space-around;
     width: 210px;
@@ -64,20 +66,25 @@ div >button:hover{
 }
 
 .footer{
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     color: white;
+    background-color: #8DC020;
 }
 .items{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    color: white;
-    height: 102px;
-    text-decoration: none;
-    margin: 54px;
-    padding: 10px;
-    background-color: #8DC020;
     width: 100%;
+    color: white;
+    text-decoration: none;
+    background-color: #8DC020;
+}
+.items li{
+    margin-left: 80px;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
 }
