@@ -42,7 +42,7 @@ form{
     position: absolute;
     padding: 36px;
     border-radius: 18px;
-    height: 244px;
+    height: 287px;
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
     -ms-border-radius: 18px;
@@ -63,10 +63,6 @@ div >button:hover{
     background-color: #8DC020;
     
     flex-wrap: wrap ;
-}
-
-.footer{
-  
 }
 .items{
     box-sizing: border-box;
@@ -89,4 +85,8 @@ div >button:hover{
     list-style: none;
     text-align: center;
 }
-
+.row{
+    text-align: center;
+    border: 3px red solid;
+    width: 100%;
+}
