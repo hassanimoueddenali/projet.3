@@ -35,18 +35,18 @@ div.pic:hover{
     border: #8DC020 5px solid;
 }
 form{
-    margin-top: -708px;
-    margin-left: 111px;
+    margin-top: -374px;
+    text-align: center;
     font-size: 30px;
-    background-color: black;
+    background-color: #0000006b;
     position: absolute;
     padding: 36px;
     border-radius: 18px;
-    height: 244px;
+    height: 285px;
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
     -ms-border-radius: 18px;
-    -o-border-radius: 18px;
+    -o-border-radius: 18px; 
 }
 #bt{
     font-size: 18px;
@@ -63,10 +63,6 @@ div >button:hover{
     background-color: #8DC020;
     
     flex-wrap: wrap ;
-}
-
-.footer{
-  
 }
 .items{
     box-sizing: border-box;
@@ -90,3 +86,8 @@ div >button:hover{
     text-align: center;
 }
 
+.fotop {
+
+    max-width: 100%;
+    width: 100%;
+}
