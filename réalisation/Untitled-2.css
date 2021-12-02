@@ -5,7 +5,8 @@ h1{
     color: white;
     text-align: center;
 }
-.P1{
+
+.p1{
     color: white;
     text-align: center;
 }
@@ -91,3 +92,4 @@ div >button:hover{
     max-width: 100%;
     width: 100%;
 }
+
